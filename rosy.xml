@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="eleven" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="eleven"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="tortoise"/>
+
+    <!--Device Trees-->
+    <project path="device/xiaomi/rosy" name="pulkit077/device_xiaomi_rosy" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/xiaomi/rosy" name="54b1d/kernel_xiaomi_rosy" remote="kernel" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/xiaomi/rosy" name="pulkit077/vendor_xiaomi_rosy" remote="vendor" />
+</manifest>
